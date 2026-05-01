@@ -13,7 +13,7 @@ for i in  range(len(students)):
 
 for i in  range(students): # noot work as its not a number
     print(i)
-
+ 
 instead use 
 
 for i in  range(len(students)):
