@@ -1,14 +1,15 @@
 students=["manisai","raju","ram","name"]
 
 for i in  range(len(students)):
-    print(students[i])
+    print(i+1,students[i])
 
 """
 
 for i in  students:
     print(i)
 
-
+for i in  range(len(students)):
+    print(students[i])
 
 for i in  range(students): # noot work as its not a number
     print(i)
