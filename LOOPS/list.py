@@ -1,7 +1,7 @@
 students=["manisai","raju","ram","name"]
 
 for i in  range(len(students)):
-    print(i+1,students[i])
+    print(i+1,students[i]) # print with number beside 
 
 """
 
