@@ -1,6 +1,6 @@
 def main():
     x=int(input("Enter x:"))
-    print("Square of x is,"squ(x))
+    print("Square of x is",squ(x))
 
 
 def squ(n):
