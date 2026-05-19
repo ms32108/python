@@ -4,7 +4,9 @@ def main():
 
 
 def squ(n):
+    #return n+n
     return n*n
+#intensional error for testing
 
 
 if __name__ == "__main__":
