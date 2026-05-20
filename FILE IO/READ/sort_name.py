@@ -12,7 +12,8 @@ with open("n1(r).txt") as file:
 for j in sorted(names):
     print(j)
 
-
+for j in sorted(names,reverse=True):
+    print(j)
 
 
 

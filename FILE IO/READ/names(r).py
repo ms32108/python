@@ -2,6 +2,11 @@
 with open("n1(r).txt", "r") as file:
     lines=file.readlines() #saves as a List
 
+print(lines)
+
+
+
+
 for line in lines:
     print("hello,",line.rstrip())
 
