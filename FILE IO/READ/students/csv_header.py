@@ -8,3 +8,6 @@ with open("students_heads.csv") as file:
 
 for student in sorted(students,key=lambda student :student["marks"] ):
     print(f"{student['name']} got {student['marks']}")
+
+
+#    reader =csv.DictReader(file) reades first 1 line as keys (headers)
