@@ -1,12 +1,31 @@
 students=[]
-student={}
+
 
 
 with open("students.csv") as file:
     for line in file:
-        student,marks=line.rstrip().split(",")
-        students["student"]=student
-        students["marks"]=marks
+        name,marks=line.rstrip().split(",")
+        student={"name":name,"marks":marks}
         students.append(student)
-    for i in students:
-        print(f"{i['name']} got {i['score']}")
+print("Unsorted")
+for i in students:
+    print(f"{i['name']} got {i['marks']}")
+    
+print("Sorted")
+for i in sorted(students):
+    print(f"{i['name']} got {i['marks']}")
+
+
+
+"""
+with open("students.csv") as file:
+    for line in file:
+        name,marks=line.rstrip().split(",")
+        student={}
+        student["name"]=name
+        student["marks"]=marks
+        students.append(student)
+"""
+    
+
+ 
