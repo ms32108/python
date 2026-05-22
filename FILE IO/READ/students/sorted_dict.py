@@ -16,6 +16,18 @@ def get_marks(i):
 print("Sorted :")
 for i in sorted(students,key=get_marks):
     print(f"{i['name']} got {i['marks']}")
+"""
+
+## get_marks internally runs
+
+for i in students:
+    get_marks(i)
+go to dict in students list extract marks  and hold then sort 
+ map to names in sorted order
+"""
+
+
+
 
 
 """
