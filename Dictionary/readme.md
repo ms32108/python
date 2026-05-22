@@ -1,9 +1,9 @@
 Dictionary {}
-Stores :       one record with labels
+
+Keys must be immutable
+Values can be anything
+Duplicates keys not allowed
+
 Access bykey : d["name"]       *****
 Add item :     ["key"] = value *****
 
-List []
-Stores :        one record with labels
-Access index :  l[0]
-Additem :       l.append(value)
