@@ -1,6 +1,6 @@
 #always take self as first parameter
 #Functions inside a class are called methods
-class Student:
+class Name:
     def __init__(self, name, age):
         self.name = name
         self.age  = age
@@ -17,8 +17,8 @@ class Student:
 
 #Now you can call them on any object:
 
-s1 = Student("John", 20)
-s2 = Student("Ali", 15)
+s1 = Name("John", 20)
+s2 = Name("Ali", 15)
 
 s1.greet()      # Hi I am John
 s2.greet()      # Hi I am Ali
